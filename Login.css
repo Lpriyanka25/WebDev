@@ -1,0 +1,133 @@
+.header{
+    margin:0;
+    padding: 0;
+    height:80px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;;
+    background-color: black;
+   
+}
+
+.body{
+    margin:0;
+    padding: 0;
+}
+
+.nav-logo{
+    height:59px;
+    width:160px;
+}
+
+.logo{
+     background-image: url("https://www.dkte.ac.in/images/dkte-logo.png");
+    height:59px;
+    width:160px;
+    margin-left: 20px;
+}
+
+.heading-box{
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.253);
+    text-align: center;
+}
+
+.input{
+    height:950px;
+    background-color: yellow;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sign-in{
+    height:720px;
+    width:700px;
+    border-radius:20px;
+    background-color: #f8c300;
+    border:2px solid transparent;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.sign-in:hover{
+    box-shadow: 5px 5px 10px #514331;
+    transition:all ease 0.5s
+}
+
+.input-bar{
+    height:630px;
+    width:500px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: yellow;
+    text-align: center;
+}
+
+.input-bar p{
+    margin-left: 5px;
+    
+}
+
+.username{
+    height:40px;
+    width:300px;
+    border-radius:5px; 
+}
+
+.PRN{
+    height:40px;
+    width:300px;
+    border-radius:5px; 
+}
+
+.password{
+    height:40px;
+    width:300px;
+    border-radius:5px; 
+}
+
+
+.button{
+    height:50px;
+    width:160px;
+    border-radius: 10px;
+    background-color: rgb(66, 82, 176);
+    font-size:2rem;
+    text-decoration-color:white ;
+}
+
+.button:hover{
+    background-color: rgba(10, 10, 176, 0.919);
+}
+
+.registration a
+{
+    font-size:2rem;
+    text-decoration: underline;
+
+}
+
+.input-bar h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-bar h2{
+    font-size: 1.3rem;
+    text-align:left;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-bar h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-bar span{
+    color:red;
+}
