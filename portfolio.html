@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(175, 175, 205);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(75, 75, 109);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(124, 124, 222);
+            font-size: 1.05rem;
+        }
+
+        main hr{
+            border: 0;
+            background: rgb(117, 117, 228);
+            height: 1.5px;
+            margin: 70px 85px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0 ;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background-color: blueviolet;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img {
+            width: 100%;
+
+        }
+
+        .purple {
+            color: rgb(161, 76, 240);
+        }
+
+        .text-grey{
+            color: rgb(65, 61, 61);
+
+        }
+        #element {
+            color: rgb(158, 80, 232);
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 75px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top{
+            width: 25px;
+            position: relative;
+            top: -30px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 70px;
+            width: 200px;
+            font-size: 100px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 60px;
+            color: rgb(40, 39, 39);
+            width: 150px;
+            font-size: 17px;
+
+        }
+
+        footer{
+            background-color: blueviolet;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 233px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(24, 23, 23);
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Piya's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Piyaa</span>
+                <div>And I'm a passionate </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.jpg" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have learned so far</span>
+            <h1> Skills </h1>
+
+            <div class="box">
+                <div class=" vertical ">
+                    <img class="image-top" src="html.jpg" alt="">
+                    <div class="verticle-title">
+                             HTML                   
+                    </div>
+                    <div class="vertical-desc">
+                        learned html by watching youtube videos.
+                    </div>
+                </div> 
+            
+                <div class="vertical">
+                    <img class="image-top" src="c.jpg" alt="">
+                    <div class="verticle-title">  C  </div>
+                    <div class="vertical-desc">
+                        learned programming language by watching youtube videos.
+                    </div>
+                </div> 
+            
+                <div class="vertical">
+                    <img class="image-top" src="c++.jpg" alt="">
+                    <div class="verticle-title">
+                             C++
+                    </div>
+                    <div class="vertical-desc">
+                        learned programming language by watching youtube videos,solving hackerrank problems.
+                    </div>
+                </div> 
+            
+                <div class="vertical">
+                    <img class="image-top" src="dsa.jpg" alt="">
+                    <div class="verticle-title">
+                            DSA
+                    </div>
+                    <div class="vertical-desc">
+                        learned by watching youtube videos,solving hackerrank problems.
+                    </div>
+                </div>              
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Piya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; piyasportfolio.com | All rights reserved        
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper','Good Programmer','Web Designer', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
