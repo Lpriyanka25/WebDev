@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Form</title>
+    
+    <link rel="stylesheet" href="examstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>EXAM RESTERATION</h1>
+        </div>
+        <div class="input">
+
+            <div class="form">
+            <p><h2>Current Semester of Applicant:<span>*</span></h2>
+            <input placeholder="Semester" class="sem" required>
+
+            <p><h2>Gender  of Applicant:<span>*</span></h2></p>
+            <select class="select">
+              <option hidden>Gender:</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+
+            <p><h2>Category of Applicant:<span>*</span></h2></p>
+            <select class="select">
+              <option hidden>Category:</option>
+              <option>SC/ST</option>
+              <option>NT/SBC</option>
+              <option>OBC</option>
+              <option>EBC</option>
+              <option>General</option>
+            </select>
+
+            <p><h2>Admission zone of Applicant:<span>*</span></h2></p>
+            <select class="select">
+              <option hidden>Admmision type of Applicant:</option>
+              <option>CAP Round</option>
+              <option>Management</option>
+            </select>
+
+            <p><h2>Amount of College Fees student have paid in current Semester:<span>*</span></h2>
+                <input placeholder="Paid college Fees" class="cfee" required>
+
+            <p><h2>Scan the scanner to pay Exam fees</h2></p>
+                  <div class="Pay">
+                  </div>
+            
+                  <br>
+            <div class="drag-area">
+                <div class="icon">
+                  <i class="fa-regular fa-cloud-arrow-up"></i>
+                  <h2>Upload Receipt of payment:</h2>
+                  <input type="file">
+                </div>
+                <br><br> 
+                <a href="last.html">
+                <button type="button" class="button">Submit</button>
+                 </a>
+            </div>
+
+            
+
+        </div>
+        </div>
+    </header>
+
+
+    
+</body>
+</html>
