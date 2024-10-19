@@ -1,0 +1,14 @@
+.response {
+    
+     height:700px;
+    
+     background-color:  #f8c300;
+     color: black;
+     font-size: 50px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+    
+}
+
