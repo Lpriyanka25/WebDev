@@ -1,0 +1,54 @@
+.header{
+    height:80px;
+    color:white;
+    background-color:black;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.input{
+    height:1100px;
+    background-color:#f8c300;
+    margin-top: 0px;
+}
+
+.form{
+    height:1100px;
+    background-color:#f8c300;
+    margin-left: 20px;
+}
+.sem{
+    height:30px;
+    width:400px;
+}
+
+.select{
+    height:30px;
+    width:400px;
+}
+
+.cfee{
+    height:30px;
+    width:400px;
+}
+
+.form span{
+    color:red;
+}
+
+.Pay{
+    height:250px;
+    width:250px;
+    border:2px solid blue;
+    background-image: url("https://www.shutterstock.com/image-vector/vector-qr-code-sample-smartphone-260nw-521220724.jpg");
+}
+
+
+.button{
+    height:50px;
+    width:160px;
+    border-radius: 10px;
+    background-color: rgb(66, 82, 176);
+    font-size:2rem;
+    text-decoration-color:white ;
+}
