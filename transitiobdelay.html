@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <p>Press the rectangle and hold</p>
+        <div id="element"></div>
+      </body>
+</html>
+<style>
+    #element {
+  width: 80px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  transition: width 2s, background-color 1s;
+  transition-delay: 2s;
+}
+
+#element:active {
+  width: 200px;
+  background-color: red;
+}
+</style>
