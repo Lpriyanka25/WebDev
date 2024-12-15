@@ -1,2 +1,2 @@
-# Mini-Project
-university exam registeration portal
+Web Development
+Basic Codes
