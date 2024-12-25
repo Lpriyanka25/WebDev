@@ -1,0 +1,32 @@
+<html>
+    <body id="body">
+        <h3>Ensure you enter valid color names.</h3>
+        <form id="myForm">
+          <label for="background">Enter background color:</label></br>
+          <input type="text" id="background" value="grey"></br></br>
+          <label for="color">Enter text color:</label></br>
+          <input type="text" id="color" value="white"></br></br>
+          <input type="button" onclick="changeStyle()" value="Change">
+        </form>
+      </body>
+</html>
+<style>
+    #body{
+  background-color:lavender;
+  color: midnightblue;
+}
+
+h3{
+    color: rgb(199, 97, 97);
+}
+</style>
+<script>
+function changeStyle() {
+  let body = document.getElementById('body');
+  let background = document.getElementById('background').value;
+  let color = document.getElementById('color').value;
+
+  body.style.background = background;
+  body.style.color = color;
+};
+</script>
